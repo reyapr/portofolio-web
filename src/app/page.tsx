@@ -9,6 +9,7 @@ import { StickyScroll } from "@/app/components/StickyRoll";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Tag } from "@/app/components/Tag";
 
 const navItems = [
   {
@@ -43,6 +44,18 @@ export default function Home() {
           Work closely cross functional team to build the new feature and maintain the existing feature,
           including the developers, product manager, and the finance team.
         </p>
+        <div className="flex flex-wrap">
+          <Tag>Typescript</Tag>
+          <Tag>Node Js</Tag>
+          <Tag>Express</Tag>
+          <Tag>Kafka</Tag>
+          <Tag>RabbitMq</Tag>
+          <Tag>Redis</Tag>
+          <Tag>PostgresQL</Tag>
+          <Tag>Jest</Tag>
+          <Tag>React Js</Tag>
+          <Tag>AWS</Tag>
+        </div>
       </div>),
       content: (
         <div className="w-full">
@@ -67,6 +80,13 @@ export default function Home() {
           Build the class material and assignment for the students,
           including the best practice of software engineering.
         </p>
+        <div className="flex flex-wrap">
+          <Tag>Javascript</Tag>
+          <Tag>Node Js</Tag>
+          <Tag>Express</Tag>
+          <Tag>MongoDB</Tag>
+          <Tag>Jest</Tag>
+        </div>
       </div>),
       content: (
         <div className="w-full" >
@@ -91,6 +111,13 @@ export default function Home() {
           Create a ticket issuance service, and integrate with the airline API.
           Build the voucher service and flight alert service.
         </p>
+        <div className="flex flex-wrap">
+          <Tag>Java</Tag>
+          <Tag>MongoDB</Tag>
+          <Tag>Kafka</Tag>
+          <Tag>RabbitMQ</Tag>
+          <Tag>Spring Web Flux</Tag>
+        </div>
       </div>),
       content: (
         <div className="w-full" >
@@ -115,6 +142,11 @@ export default function Home() {
           Work closely with the product manager and the design team to build the new feature and maintain the existing feature.
           Build a booking page for the airport transfer product.
         </p>
+        <div className="flex flex-wrap">
+          <Tag>Typescript</Tag>
+          <Tag>React JS</Tag>
+          <Tag>React Testing Library</Tag>
+        </div>
       </div>),
       content: (
         <div className="w-full">
@@ -139,6 +171,15 @@ export default function Home() {
           Develop internal POS system, for the cashier team.
           Notification enablement for the customer.
         </p>
+        <div className="flex flex-wrap">
+          <Tag>Typescript</Tag>
+          <Tag>React JS</Tag>
+          <Tag>Node JS</Tag>
+          <Tag>Express</Tag>
+          <Tag>GraphQL</Tag>
+          <Tag>Big Query</Tag>
+          <Tag>Airflow</Tag>
+        </div>
       </div>),
       content: (
         <div className="w-full">
@@ -163,6 +204,13 @@ export default function Home() {
           Build the assignment for the students.
           Teach introduction to programming for the students.
         </p>
+        <div className="flex flex-wrap">
+          <Tag>Javascript</Tag>
+          <Tag>React JS</Tag>
+          <Tag>HTML</Tag>
+          <Tag>CSS</Tag>
+          <Tag>Heroku</Tag>
+        </div>
       </div>),
       content: (
         <div className="w-full">
